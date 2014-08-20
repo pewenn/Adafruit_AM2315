@@ -1,0 +1,12 @@
+{
+  "name": "Adafruit_AM2315",
+  "author": "Written by Limor Fried/Ladyada for Adafruit Industries",
+  "license": "BSD",
+  "description": " This is a library for the AM2315 Humidity & Temp Sensor
+
+  Designed specifically to work with the AM2315 sensor from Adafruit
+  ----> https://www.adafruit.com/products/1293
+
+  These displays use I2C to communicate, 2 pins are required to  
+  interface"
+}
