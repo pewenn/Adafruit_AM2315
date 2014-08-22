@@ -20,7 +20,6 @@
  #include "WProgram.h"
 #endif
 /* #include "Wire.h" */
-#include <stdint.h>
 #include <spark_wiring_i2c.h>
 
 #define AM2315_I2CADDR       0x5C
