@@ -1,4 +1,4 @@
-#include <Wire.h>
+#include <spark_wiring.h>
 #include <Adafruit_AM2315.h>
 
 /*************************************************** 
