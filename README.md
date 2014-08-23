@@ -3,7 +3,7 @@ Adafruit_AM2315
 
 Adafruit_AM2315
 
-This is a library for the AM2315 Humidity + Temp sensor
+This is an attempt to port Adafruit library for the AM2315 Humidity + Temp sensor to Spark Core. Not tested or verified yet
 
 Designed specifically to work with the AM2315 in the Adafruit shop 
   ----> https://www.adafruit.com/products/1293
