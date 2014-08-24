@@ -15,7 +15,11 @@
  ****************************************************/
 
 #if (ARDUINO >= 100)
- #include "Arduino.h"
+ /* #include "Arduino.h" */
+ #define ARDUINO_H
+#include <stdint.h>
+#include <stddef.h>
+#include <stdlib.h>
 #else
  #include "WProgram.h"
 #endif
