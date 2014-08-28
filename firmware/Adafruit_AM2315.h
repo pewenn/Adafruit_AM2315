@@ -21,7 +21,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #else
- #include "WProgram.h"
+/* #include "WProgram.h" */
 #endif
 #include <spark_wiring_i2c.h>
 
