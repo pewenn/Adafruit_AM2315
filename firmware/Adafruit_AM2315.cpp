@@ -15,7 +15,7 @@
  ****************************************************/
 
 #include "Adafruit_AM2315.h"
-#include <util/delay.h>
+/* #include <util/delay.h> */
 
 Adafruit_AM2315::Adafruit_AM2315() {
 }
@@ -74,13 +74,15 @@ boolean Adafruit_AM2315::readData(void) {
 
 
 float Adafruit_AM2315::readTemperature(void) {
-  if (! readData()) return NAN;
+  if (! readData()) return false;
   return temp;
-}
+  Spark.variable("temp", &temp, DOUBLE);
+  }
 
 float Adafruit_AM2315::readHumidity(void) {
-  if (! readData()) return NAN;
+  if (! readData()) return false;
   return humidity;
+  Spark.variable("humidity", &humidity, DOUBLE);
 }
 
 
