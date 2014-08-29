@@ -1,5 +1,7 @@
+// This #include statement was automatically added by the Spark IDE.
+#include "Adafruit_AM2315.h"
+
 #include <spark_wiring.h>
-#include <Adafruit_AM2315.h>
 
 /*************************************************** 
   This is an example for the AM2315 Humidity + Temp sensor
@@ -25,7 +27,7 @@
 Adafruit_AM2315 am2315;
 
 void setup() {
-  Serial.begin(9600);
+    Serial.begin(9600);
   Serial.println("AM2315 Test!");
 
   if (! am2315.begin()) {
