@@ -14,6 +14,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
+
 #if (ARDUINO >= 100)
 #include "Arduino.h"
  #define ARDUINO_H
@@ -39,5 +40,9 @@ class Adafruit_AM2315 {
  private:
   boolean readData(void);
   float humidity, temp;
-};
+  };
+
+
+
+
 
